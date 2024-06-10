@@ -1,0 +1,9 @@
+[package]
+name = "mouse_tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+native-windows-gui = "1.0"
+native-windows-derive = "1.0"
+winapi = { version = "0.3", features = ["winuser"] }
